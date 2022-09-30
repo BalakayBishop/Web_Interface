@@ -1,0 +1,62 @@
+/* Comments in CSS 
+    # is the ID selector
+    . is the class selector
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #4d2d06;
+    font-family: Georgia, Times, serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+}
+
+#monkey {
+    background: #ffffff;
+    color: #4d2d06;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#donkey {
+    background: green;
+    font-family: Monaco, monospace;
+}
+
+.primary {
+    background: #222222;
+    color: #eeeeee;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+.secondary {
+    background: #eeeeee;
+    color: #222222;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+/* Descendent Selectors */
+.primary h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.primary p em {
+    color: #32b0ff;
+}
+
+.secondary p {
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.secondary em {
+    color: #fc3fff;
+}
