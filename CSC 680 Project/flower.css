@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    min-width: 700px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    display: inline-block;
+    background: linear-gradient(45deg, #B758E0, #DEA9F4);
+    width: 100%;
+    position: sticky;
+    height: 100px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.header_button {
+    display: inline-block;
+    margin: 8px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333333;
+    position: relative;
+    top: 28%;
+    left: 250px;
+    font-size: 20px;
+    background-color: inherit;
+}
+
+#flowers_header {
+    font-size: 32px;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+
+#search_bar {
+    display: inline-block;
+    position: relative;
+    left: 75%;
+    bottom: 4px;
+    color: #333333;
+}
+
+#content {
+    margin: 24px 0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#flower_card {
+    background: #333;
+    color: #eee;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    height: 256px;
+}
+
+#flower_img {
+    width: 256px;
+    height: 256px;
+    border-radius: 8px;
+    float: left;
+}
+
+#flower_name {
+    font-size: 40px;
+}
+
+#flower_detail {
+    display: inline;
+    margin: 8px;
+    position: relative;
+    left: 24px;
+    top: 64px;
+    font-size: 20px;
+}
+
+.flower_details {
+    margin-right: 16px;
+    padding-right: 8px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 16px;
+}
+
+hr {
+    margin: 16px 0;
+    border: solid .5px #333;
+}
+
+#flower_description {
+    background-color: #eee;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px;
+}
+
+#p_desc {
+    padding: 8px;
+    font-size: 20px;
+}

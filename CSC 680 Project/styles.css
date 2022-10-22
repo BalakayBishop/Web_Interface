@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    min-width: 700px;
+    max-width: 1024px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    display: inline-block;
+    background: linear-gradient(45deg, #B758E0, #DEA9F4);
+    width: 100%;
+    position: sticky;
+    height: 100px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+h2 {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+
+.header_button {
+    display: inline-block;
+    margin: 8px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333333;
+    position: relative;
+    top: 28%;
+    left: 250px;
+    font-size: 20px;
+    background-color: inherit;
+}
+
+#flowers_header {
+    font-size: 32px;
+}
+
+#search_bar {
+    display: inline-block;
+    position: relative;
+    left: 75%;
+    bottom: 4px;
+    color: #333333;
+}
+
+hr {
+    border: solid .5px #333333;
+    color: #333333;
+}
+
+#content {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding: 8px;
+    margin: 24px 0;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #B758E0, #DEA9F4);
+}
+
+#home_page_desc {
+    display: inline-block;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    color: #333333;
+    font-size: 20px;
+}
+
+#result_tag {
+    position: relative;
+    margin: 8px 0;
+}
+
+#results_h2 {
+    position: relative;
+    top: 16px;
+    left: 8px;
+}
+
+#result_hr {
+    width: 100%;
+    border: solid .5px #333333;
+    color: #333333;
+    position: relative;
+    top: 16px;
+    margin: 0 auto;
+}
+
+.picture {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 192px;
+    height: 192px;
+    margin-bottom: 0;
+    background-color: #333333;
+}
+
+.results_row {
+    display: table;
+    width: 100%;
+    margin: 24px 0;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.result_column {
+    display: table-cell;
+    text-align: center;
+}
+
+.flower_button {
+    position: relative;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    bottom: 5px;
+    width: 192px;
+    height: 48px;
+    border: none;
+    background-color: #333;
+    color: #eee;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
