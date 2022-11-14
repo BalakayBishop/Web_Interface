@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333333;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    border-radius: 9px;
+    width: 512px;
+    margin: 24px auto;
+    padding: 24px;
+}
+
+h1 {
+    margin: 0 0 24px;
+}
+
+p{
+    margin: 8px 0;
+}
+
+/* Styling Links */
+a:link { /* This is the best practice for pseudo classes */
+    color: #f42aa6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f42aa6;
+}
+
+a:hover {
+    color: #a50578;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000;
+}
+
+/* Styling the links specifically */
+#link-1:hover {
+    background-color: #333333;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#link-3 {
+    background: #f42aa6;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+}
+
+#link-3:hover {
+    background: #a50578;
+    text-decoration: none;
+}
+
+#link-4:hover {
+    color: #333333;
+}
